@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="7px" viewBox="0 0 12 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon / Arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-310.000000, -337.000000)" fill="#000000">
+            <g id="Icon-/-Arrow" transform="translate(300.000000, 324.000000)">
+                <path d="M16.0525329,14.3868862 L11.0395359,19.3998832 C10.8521962,19.5872229 10.5373259,19.5921385 10.3461516,19.4009642 C10.1605684,19.215381 10.1554613,18.8993513 10.3472326,18.70758 L15.6306125,13.4242001 C15.6400395,13.4147731 15.6497895,13.405808 15.6598304,13.3973065 C15.6732181,13.3793817 15.6879787,13.3622744 15.7041015,13.3461516 C15.8952758,13.1549774 16.210146,13.1598929 16.3974858,13.3472326 L21.6808656,18.6306125 C21.8726369,18.8223838 21.8675299,19.1384135 21.6819466,19.3239967 C21.4907723,19.515171 21.1759021,19.5102555 20.9885624,19.3229157 L16.0525329,14.3868862 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

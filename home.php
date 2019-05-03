@@ -33,7 +33,7 @@
 
       <div class="menu">
         <ul>
-           <li id="menu-1"><a class="hover-1 highlight" onclick="menu_4()" href="http://styleguide.coach/introduction/">Voice & Tone</a></li>
+           <li id="menu-1"><a class="hover-1 highlight" onclick="menu_4()" href="https://styleguide.coach/voice-tone/introduction/">Voice & Tone</a></li>
            <li id="menu-2"><a class="hover-2 disabled" onclick="menu_2()">Logo Guidelines</a></li>
            <li id="menu-2"><a class="hover-3 disabled" onclick="menu_2()">Signature Guidelines</a></li>
            <li id="menu-2"><a class="hover-4 disabled" onclick="menu_2()">UX Components</a></li>

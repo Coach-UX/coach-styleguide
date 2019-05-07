@@ -43,14 +43,14 @@ get_header();
 					'prev_text' =>
           // '<span class="screen-reader-text">' . __( 'Previous Post', 'twentyseventeen' ) . '</span>
               '<span aria-hidden="true" class="nav-subtitle">' . __( 'Next', 'twentyseventeen' ) .
-                  '<span class="nav-title-icon-wrapper"> <img src="http://styleguide.coach/wp-content/uploads/2018/08/line.png" class="icon icon-arrow-right">
+                  '<span class="nav-title-icon-wrapper"> <img src="https://styleguide.coach/wp-content/uploads/2018/08/line.png" class="icon icon-arrow-right">
               </span></span>
                   <span class="nav-title">%title</span>',
 
           'next_text' =>
           // '<span class="screen-reader-text">' . __( 'Next Post', 'twentyseventeen' ) . '</span>
           '<span aria-hidden="true" class="nav-subtitle">
-            <span class="nav-title-icon-wrapper"> <img src="http://styleguide.coach/wp-content/uploads/2018/08/line.png" class="icon icon-arrow-left">
+            <span class="nav-title-icon-wrapper"> <img src="https://styleguide.coach/wp-content/uploads/2018/08/line.png" class="icon icon-arrow-left">
           </span>' . __( 'Previous', 'twentyseventeen' ) . '</span>
           <span class="nav-title">%title
             </span>',

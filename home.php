@@ -13,7 +13,6 @@
   <meta charset="<?php bloginfo( 'charset' ); ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="<?php echo get_bloginfo('template_directory'); ?>/css/home.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/home.css">
   </head>
 
   <body <?php body_class(); ?>>
@@ -34,7 +33,7 @@
       <div class="menu">
         <ul>
            <li id="menu-1"><a class="hover-1 highlight" onclick="menu_4()" href="https://styleguide.coach/voice-tone/introduction/">Voice & Tone</a></li>
-           <li id="menu-2"><a class="hover-2 disabled" onclick="menu_2()">Logo Guidelines</a></li>
+           <li id="menu-2"><a class="hover-2 highlight" onclick="menu_2()" href="https://styleguide.coach/logo-guidelines/introduction-2/">Logo Guidelines</a></li>
            <li id="menu-2"><a class="hover-3 disabled" onclick="menu_2()">Signature Guidelines</a></li>
            <li id="menu-2"><a class="hover-4 disabled" onclick="menu_2()">UX Components</a></li>
 
@@ -42,7 +41,6 @@
       </div>
 </div>
 
-  <script src="js/index.js"></script>
   <?php wp_footer(); ?>
 
   </body>

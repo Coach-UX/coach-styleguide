@@ -119,42 +119,6 @@ body {
   transition: all 150ms ease-in;
 }
 
-/* .highlight:active {
-    color: white;
-    transition: all 50ms ease-in;
-  }
-
-  .highlight:active::after {
-    width: 110%;
-    height: 105%;
-    transform-origin: center;
-    bottom: 0;
-    left: -5%;
-    transition: all 80ms ease;
-  } */
-
-/* .highlight::after {
-  position: absolute;
-  z-index: -1;
-  bottom: 0px;
-  left: 50%;
-  transform: translateX(-50%);
-  content: "";
-  width: 100%;
-  height: 0px;
-  color: black;
-  background-color: white;
-  transition: all 150ms ease-out; }
-
-.highlight:hover {
-  color: white; }
-
-.highlight:hover::after {
-  height: 105%;
-  width: 110%;
-  transition: all 250ms ease-out; } */
-
-
 /* .hover-1, .hover-2, .hover-3, .hover-4, .hover-5 {
   color: #000;
 } */
@@ -163,13 +127,13 @@ body {
   background-color: #FF206E;
 }
 .hover-logo-guidelines::after {
-  background-color: #02D6F7;
+  background-color: #6E44FF;
 }
 .hover-signature-guidelines::after {
-  background-color: #06D6A0;
+  background-color: #02D6F7;
 }
 .hover-4::after {
-  background-color: #6E44FF;
+  background-color: #06D6A0;
 }
 .hover-5::after {
   background-color: #FFA345;

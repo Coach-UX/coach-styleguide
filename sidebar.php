@@ -7,7 +7,7 @@
 	<div id="accordion" class="accordion">
 
 		<!-- get category name of active post for sidebar title-->
-		<?php 
+		<?php
 		if (is_single( )) {
 			$post_ID = $wp_query->posts[0]->ID;
 			$all_cats_of_post = get_the_category($post_ID);
@@ -30,11 +30,11 @@
 							if( $my_query ) {
 								while ( $my_query->have_posts() ) {
 									$my_query->the_post();
-										$currentClass=( is_single() && $IDOutsideLoop == $post->ID ) ? ' class="current-post" checked="checked"' : '';
+									$currentClass=( is_single() && $IDOutsideLoop == $post->ID ) ? ' class="current-post" checked="checked" id="' . $category->slug . '"': '';
 
 					?>
 
-					<div class="section">
+					<div class="section"<?php echo 'id="' . $category->slug . '"' ?>>
 						<input type="radio" name="accordion-1" id="'<?php echo $cat->description ?>'" <?php echo $currentClass ?>/>
 							<label <?php echo $currentClass ?>>
 								<a href="<?php the_permalink(); ?>">

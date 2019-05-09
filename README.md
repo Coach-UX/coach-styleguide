@@ -31,11 +31,11 @@ Categories are used to establish high-level groupings of content. These are list
 ### Posts
 Posts are used to organize a category into several different pages. These are listed in their parent category's sidebar menu.
   #### Editing Posts
-  > Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  > -
   #### Adding Posts
-  > Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  #### Re-arranging Categories in Sidebar
-  > Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  > -
+  #### Re-arranging Posts in Sidebar
+  > -
 
 ### Sections (h2)
   Sections are used to organize a page into smaller chunks of content. These are listed as child items in the sidebar menu *only* when their parent post is active.
@@ -43,18 +43,18 @@ Posts are used to organize a category into several different pages. These are li
 
 ## User Management
   ### User Roles
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  ### Users
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  There are three tiers of user roles: Administrator, Group Admin and Editor. Group Admin's should be the stakeholders of each category. The main difference between a Group Admin and an Editor is the ability to add/delete/edit other users.
+  ### Adding a New User
+  > -
 
 
 ## Homepage
-Homepage cannot be edited from the CMS. It can only be edited directly from home.php and home.css.
+Homepage cannot be edited from the CMS. It can only be edited directly from `home.php` and `home.css`.
 
 
 ## Staging
   ### Switching to Staging Environment
-  A staging environment can be accessed by going to [styleguide.coach/dev/wp-admin](https://styleguide.coach/dev/wp-admin)
+  A staging environment can be accessed at [styleguide.coach/dev/wp-admin](https://styleguide.coach/dev/wp-admin). Please use this to test all changes before pushing anytihng to production.
 
 ## Plugins
   ### Visual Editor

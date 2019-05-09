@@ -55,6 +55,16 @@ function twentyseventeen_setup() {
 
 	add_image_size( 'twentyseventeen-thumbnail-avatar', 100, 100, true );
 
+	// Redirect category page to first post in the respective category
+	function redirect_cat_wpse_207298() {
+  if (is_category()) {
+    global $post;
+    wp_safe_redirect(get_permalink($post->ID));
+    die;
+	  }
+	}
+	add_action('template_redirect','redirect_cat_wpse_207298');
+
 
 	// Replace Howdy Greeting
 	function replace_howdy_greeting( $wp_admin_bar ) {

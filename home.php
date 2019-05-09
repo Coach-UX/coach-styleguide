@@ -32,11 +32,12 @@
 
       <div class="menu">
         <ul>
-           <li id="menu-1"><a class="hover-1 highlight" onclick="menu_4()" href="https://styleguide.coach/voice-tone/introduction/">Voice & Tone</a></li>
-           <li id="menu-2"><a class="hover-2 highlight" onclick="menu_2()" href="https://styleguide.coach/logo-guidelines/introduction-2/">Logo Guidelines</a></li>
-           <li id="menu-2"><a class="hover-3 disabled" onclick="menu_2()">Signature Guidelines</a></li>
-           <li id="menu-2"><a class="hover-4 disabled" onclick="menu_2()">UX Components</a></li>
-
+          <li> <?php $category_ids = get_all_category_ids(); ?>
+           <?php $args = array( 'orderby' => 'slug', 'parent' => 0 );
+                 $categories = get_categories( $args ); foreach ( $categories as $category ) {
+                   echo '<li><a class="highlight hover-' . $category->slug . '" href="' . get_category_link( $category ) . '">' . $category->name . '</a></li>';
+                 } ?>
+          </li>
         </ul>
       </div>
 </div>

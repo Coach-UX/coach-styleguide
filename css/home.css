@@ -91,6 +91,7 @@ body {
   position: relative;
   display: inline-block;
   text-decoration: none;
+  color: #000;
 }
 
 .highlight {
@@ -154,19 +155,17 @@ body {
   transition: all 250ms ease-out; } */
 
 
-.hover-1, .hover-2, .hover-3, .hover-4, .hover-5 {
+/* .hover-1, .hover-2, .hover-3, .hover-4, .hover-5 {
   color: #000;
-}
+} */
 
-.hover-1::after {
+.hover-voice-tone::after {
   background-color: #FF206E;
 }
-
-.hover-2::after {
+.hover-logo-guidelines::after {
   background-color: #02D6F7;
 }
-
-.hover-3::after {
+.hover-signature-guidelines::after {
   background-color: #06D6A0;
 }
 .hover-4::after {

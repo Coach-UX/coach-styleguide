@@ -74,6 +74,11 @@ font-weight: bold;
   opacity: .2;
 }
 
+.nav-next a, .nav-previous a {
+  display: block;
+  padding: 10% 0 0 0;
+}
+
 .post-navigation .nav-next {
   margin-top: 1.5em;
   float: left;

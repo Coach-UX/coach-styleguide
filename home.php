@@ -13,6 +13,7 @@
   <meta charset="<?php bloginfo( 'charset' ); ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="<?php echo get_bloginfo('template_directory'); ?>/css/home.css" rel="stylesheet">
+    <link href="<?php echo get_bloginfo('template_directory'); ?>/css/category-colors.css" rel="stylesheet">
   </head>
 
   <body <?php body_class(); ?>>
@@ -35,7 +36,7 @@
           <li> <?php $category_ids = get_all_category_ids(); ?>
            <?php $args = array( 'orderby' => 'slug', 'parent' => 0 );
                  $categories = get_categories( $args ); foreach ( $categories as $category ) {
-                   echo '<li><a class="highlight hover-' . $category->slug . '" href="' . get_category_link( $category ) . '">' . $category->name . '</a></li>';
+                   echo '<li><a class="highlight" id="' . $category->slug . '" href="' . get_category_link( $category ) . '">' . $category->name . '</a></li>';
                  } ?>
           </li>
         </ul>

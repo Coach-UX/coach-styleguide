@@ -17,6 +17,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="<?php echo get_bloginfo('template_directory'); ?>/css/main.css" rel="stylesheet">
 <link href="<?php echo get_bloginfo('template_directory'); ?>/css/theme.css" rel="stylesheet">
+<link href="<?php echo get_bloginfo('template_directory'); ?>/css/category-colors.css" rel="stylesheet">
 <link rel="shortcut icon" href="/favicon.png" />
 <?php wp_head(); ?>
 </head>

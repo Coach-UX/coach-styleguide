@@ -83,12 +83,13 @@ Posts are used to organize a category into several different pages. These are li
 
 
 ## Homepage
-Homepage cannot be edited from the CMS. It can only be edited directly from `home.php` and `home.css`.
+The homepage _cannot_ be edited from the CMS. It can only be edited directly from the theme files `home.php` and `home.css`.
 
 
 ## Staging
   ### Switching to Staging Environment
   A staging environment can be accessed at [styleguide.coach/dev/wp-admin](https://styleguide.coach/dev/wp-admin). Please use this to test all changes before pushing anything to production.
+
 
 ## Plugins
   ### Content Management
@@ -115,16 +116,3 @@ Homepage cannot be edited from the CMS. It can only be edited directly from `hom
   * **Adminimize** - Allows admin to add/remove menu items from the dashboard based on a user's role
   * **Fancy Admin UI** - Changes the UI of the admin dashboard
   * **Fast User Switching** - Allows admin to view dashboard as different user roles
-
-
-
-
-
-
-
-
-
-
-
-
-

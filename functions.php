@@ -1,11 +1,11 @@
 <?php
 /**
- * Twenty Seventeen functions and definitions
+ * Theme functions and definitions
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package WordPress
- * @subpackage Twenty_Seventeen
+ * @package Coach
+ * @subpackage Coach Styleguide
  * @since 1.0
  */
 

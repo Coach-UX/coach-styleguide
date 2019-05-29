@@ -3,7 +3,7 @@
 	<a href="<?php echo home_url(); ?>">
 		<img class="logo" src="<?php echo get_bloginfo('template_directory'); ?>/img/logo-coach.svg">
 	</a>
-	<img class="menu-icon" src="<?php echo get_bloginfo('template_directory'); ?>/img/menu.png">
+	<img id="hamburger-menu" onclick="toggle_sidebar()" class="menu-icon" src="<?php echo get_bloginfo('template_directory'); ?>/img/menu.png">
 	<div id="accordion" class="accordion">
 
 		<!-- get category name of active post for sidebar title-->
@@ -55,5 +55,5 @@
 		  <?php } ?>
 
  	</div> <!--.accordion -->
-		<button id="hide-show" onclick="toggle_sidebar()">Hide menu</button>
+		<!-- <button id="hide-show" onclick="toggle_sidebar()">Hide menu</button> -->
 </div> <!--.left-nav -->

@@ -8,6 +8,25 @@
 function toggle_sidebar() {
     var accordion = document.getElementById("accordion");
     var left = document.getElementById("left-nav");
+    var menu = document.getElementById("hamburger-menu");
+    if (accordion.style.display === "block") {
+        accordion.style.display = "none";
+        left.style.height = "60px";
+        accordion.style.padding = "0";
+        menu.src = "<?php echo get_bloginfo('template_directory'); ?>/img/menu.png";
+    } else {
+        accordion.style.display = "block";
+        left.style.height = "100%";
+        accordion.style.padding = "10% 7%";
+        menu.src = "<?php echo get_bloginfo('template_directory'); ?>/img/close.png";
+    }
+}
+</script>
+<!-- hide-show btn -->
+  <!-- <script type="text/javascript">
+function toggle_sidebar() {
+    var accordion = document.getElementById("accordion");
+    var left = document.getElementById("left-nav");
     var content = document.getElementById("ajax");
     var toggle = document.getElementById("hide-show");
     if (accordion.style.opacity === "0") {
@@ -26,7 +45,8 @@ function toggle_sidebar() {
         left.style.top = "-36vh";
     }
 }
-</script>
+</script> -->
+
 
 
 </body>

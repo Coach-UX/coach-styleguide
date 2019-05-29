@@ -53,7 +53,7 @@ Homepage cannot be edited from the CMS. It can only be edited directly from `hom
 
 ## Staging
   ### Switching to Staging Environment
-  A staging environment can be accessed at [styleguide.coach/dev/wp-admin](https://styleguide.coach/dev/wp-admin). Please use this to test all changes before pushing anytihng to production.
+  A staging environment can be accessed at [styleguide.coach/dev/wp-admin](https://styleguide.coach/dev/wp-admin). Please use this to test all changes before pushing anything to production.
 
 ## Plugins
   ### Visual Editor

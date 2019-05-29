@@ -46,7 +46,7 @@ Posts are used to organize a category into several different pages. These are li
   > - --->
 
 ### Sections (h2)
-  Sections are used to organize a page into smaller chunks of content. These are listed as child items in the sidebar menu *only* when their parent post is active.
+  Sections are used to organize a page into smaller chunks of content. These are listed as child items in the sidebar menu *only* when their parent post is active. These are automatically generated with all **h2** elements on the page. When laying out a new page, please be deliberate about using the h2 class.
 
 
 ## User Management
@@ -65,27 +65,30 @@ Homepage cannot be edited from the CMS. It can only be edited directly from `hom
   A staging environment can be accessed at [styleguide.coach/dev/wp-admin](https://styleguide.coach/dev/wp-admin). Please use this to test all changes before pushing anything to production.
 
 ## Plugins
-  ### Visual Editor
+  ### Content Management
   * **Elementor** - Allows editors to add & edit content to site from CMS
   * **Elementor Pro** - Adds "Pro" features to Elementor visual editor
-  ### Content Management
+  * **FileBird Lite** - Allows media to be organized into folders & categories in the back-end
   * **Category Order and Taxonomy Terms Order** - To reorder Homepage
   * **Post Types Order** - To reorder Sidebar
+  
   ### User Management
   * **Members** - User management dashboard
-   * **Members Hierarchy** - Allows admin to add a hierarchy of permissions to user roles
+  * **Members Hierarchy** - Allows admin to add a hierarchy of permissions to user roles
   * **Restrict User Taxonomies** - Assign a specific category to a user role to restrict which content they can manage
-  ### Functionality 
+  * **Peter's Login Redirect** - Redirect users to different locations after logging in
+  
+  ### Admin 
   * **Ajaxify WordPress Site** - Adds ajax functionality to site
   * **Easy Table of Contents** - Used in sidebar.php to add dynamic a menu of all *h2* elements on a page
-  * **GitHub Updater** - To pull theme updates from GitHub repository
   * **Password Protected** - Password-protects the entire website
-  ### Admin 
+  * **GitHub Updater** - To pull theme updates from GitHub repository
+  * **WP Staging** - Create a staging clone site for testing & developing
+  * **Autoptmize** - Makes site faster by optimizing CSS, JS, images, Google fonts and more
+  * **WP Super Cache** - Manage cache 
   * **Adminimize** - Allows admin to add/remove menu items from the dashboard based on a user's role
   * **Fancy Admin UI** - Changes the UI of the admin dashboard
-  * **Akismet Anti-Spam** - Protects site from spam
   * **Fast User Switching** - Allows admin to view dashboard as different user roles
-
 
 
 

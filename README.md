@@ -92,27 +92,23 @@ The homepage _cannot_ be edited from the CMS. It can only be edited directly fro
 
 
 ## Plugins
-  ### Content Management
-  * **Elementor** - Allows editors to add & edit content to site from CMS
-  * **Elementor Pro** - Adds "Pro" features to Elementor visual editor
-  * **FileBird Lite** - Allows media to be organized into folders & categories in the back-end
-  * **Category Order and Taxonomy Terms Order** - To reorder Homepage
-  * **Post Types Order** - To reorder Sidebar
-  
-  ### User Management
-  * **Members** - User management dashboard
-  * **Members Hierarchy** - Allows admin to add a hierarchy of permissions to user roles
-  * **Restrict User Taxonomies** - Assign a specific category to a user role to restrict which content they can manage
-  * **Peter's Login Redirect** - Redirect users to different locations after logging in
-  
-  ### Admin 
-  * **Ajaxify WordPress Site** - Adds ajax functionality to site
-  * **Easy Table of Contents** - Used in sidebar.php to add dynamic a menu of all *h2* elements on a page
-  * **Password Protected** - Password-protects the entire website
-  * **GitHub Updater** - To pull theme updates from GitHub repository
-  * **WP Staging** - Create a staging clone site for testing & developing
-  * **Autoptmize** - Makes site faster by optimizing CSS, JS, images, Google fonts and more
-  * **WP Super Cache** - Manage cache 
-  * **Adminimize** - Allows admin to add/remove menu items from the dashboard based on a user's role
-  * **Fancy Admin UI** - Changes the UI of the admin dashboard
-  * **Fast User Switching** - Allows admin to view dashboard as different user roles
+* **Adminimize** - Allows admin to add/remove menu items from the dashboard based on a user's role
+* **Ajaxify WordPress Site** - Adds ajax functionality to site
+* **Autoptmize** - Makes site faster by optimizing CSS, JS, images, Google fonts and more
+* **Category Order and Taxonomy Terms Order** - To reorder Homepage
+* **Easy Table of Contents** - Used in sidebar.php to add dynamic a menu of all *h2* elements on a page
+* **Elementor** - Allows editors to add & edit content to site from CMS
+* **Elementor Pro** - Adds "Pro" features to Elementor visual editor
+* **Fancy Admin UI** - Changes the UI of the admin dashboard
+* **Fast User Switching** - Allows admin to view dashboard as different user roles
+* **FileBird Lite** - Allows media to be organized into folders & categories in the back-end
+* **Floating Admin Button** - Shows a floating admin button instead of the admin bar instead of the default admin bar
+* **GitHub Updater** - To pull theme updates from GitHub repository
+* **Members** - User management dashboard
+* **Members Hierarchy** - Allows admin to add a hierarchy of permissions to user roles
+* **Password Protected** - Password-protects the entire website
+* **Peter's Login Redirect** - Redirect users to different locations after logging in
+* **Post Types Order** - To reorder Sidebar
+* **Restrict User Taxonomies** - Assign a specific category to a user role to restrict which content they can manage
+* **WP Staging** - Create a staging clone site for testing & developing
+* **WP Super Cache** - Manage cache 

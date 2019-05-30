@@ -34,7 +34,7 @@ Categories are used to establish high-level groupings of content. These are list
         background-color: #;
       }
       ```
-      > Note that "#category-slug" needs to be replaced with the specific slug of the new category. This can be found in Posts>Categories
+      > **NOTE**: "#category-slug" needs to be replaced with the specific slug of the new category. This can be found in Posts>Categories
       
 ## Posts
 Posts are used to organize a category into several different pages. These are listed in their parent category's sidebar menu.

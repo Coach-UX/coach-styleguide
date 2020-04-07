@@ -34,25 +34,24 @@ ____ ____ ___ ____ ____ ____ ____ _   _    ____ ____ _    ____ ____ ____
     #photography-guidelines .current-post,
     #photography-guidelines .ez-toc-list li a:hover,
     #photography-guidelines .ez-toc-list li .active {
-      color: #FFA345;
+      color: #F75C03;
     }
     #photography-guidelines .ez-toc-list .active {
-      border-color: #FFA345;
+      border-color: #F75C03;
     }
     #photography-guidelines::after {
-      background-color: #FFA345;
+      background-color: #F75C03;
     }
 /* photography-guidelines */
     #photography-guidelines label span:hover,
     #photography-guidelines .current-post,
     #photography-guidelines .ez-toc-list li a:hover,
     #photography-guidelines .ez-toc-list li .active {
-      color: #06D6A0;
+      color: #06AED5;
     }
     #photography-guidelines .ez-toc-list .active {
-      border-color: #06D6A0;
+      border-color: #06AED5;
     }
     #photography-guidelines::after {
-      background-color: #06D6A0;
+      background-color: #06AED5;
     }
-  

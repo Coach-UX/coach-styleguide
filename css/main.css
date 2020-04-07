@@ -219,6 +219,7 @@ strong, b {
   padding: 2% 0 20px 15px !important;
   margin: 0;
   font-size: 1.5rem;
+  line-height: 2rem;
 }
 @keyframes fadeIn {
   from {

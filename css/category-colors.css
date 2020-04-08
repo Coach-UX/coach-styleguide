@@ -30,16 +30,16 @@ ____ ____ ___ ____ ____ ____ ____ _   _    ____ ____ _    ____ ____ ____
       background-color: #6E44FF;
     }
 /* signature-guidelines */
-    #photography-guidelines label span:hover,
-    #photography-guidelines .current-post,
-    #photography-guidelines .ez-toc-list li a:hover,
-    #photography-guidelines .ez-toc-list li .active {
+    #signature-guidelines label span:hover,
+    #signature-guidelines .current-post,
+    #signature-guidelines .ez-toc-list li a:hover,
+    #signature-guidelines .ez-toc-list li .active {
       color: #F75C03;
     }
-    #photography-guidelines .ez-toc-list .active {
+    #signature-guidelines .ez-toc-list .active {
       border-color: #F75C03;
     }
-    #photography-guidelines::after {
+    #signature-guidelines::after {
       background-color: #F75C03;
     }
 /* photography-guidelines */

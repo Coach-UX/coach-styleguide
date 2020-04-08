@@ -78,6 +78,13 @@ function twentyseventeen_setup() {
 	add_filter( 'admin_bar_menu', 'replace_howdy_greeting', 12 );
 
 
+	// remove "Private: " from titles
+	function remove_private_prefix($title) {
+		$title = str_replace('Private: ', '', $title);
+		return $title;
+	}
+	add_filter('the_title', 'remove_private_prefix');
+
 	// Set the default content width.
 	$GLOBALS['content_width'] = 525;
 

@@ -1,11 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,500");
 @import url("https://use.typekit.net/kkq8nal.css");
+/* Chinese font */
+@font-face {
+  font-family: 'STSongti-SC-Regular';
+  src: url(./fonts/Songti-SC-Regular.woff);
+}
 * {
   padding: 0;
   margin: 0;
 }
 body {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Cormorant Garamond", "STSongti-SC-Regular", serif;
   font-weight: 400;
   overflow-x: hidden;
   padding: 0 0 0 4.5%;

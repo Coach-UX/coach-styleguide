@@ -16,6 +16,19 @@ ____ ____ ___ ____ ____ ____ ____ _   _    ____ ____ _    ____ ____ ____
     #voice-tone::after {
       background-color: #FF206E;
     }
+  /* voice & tone-chinese */
+      #voice-tone-chinese label span:hover,
+      #voice-tone-chinese .current-post,
+      #voice-tone-chinese .ez-toc-list li a:hover,
+      #voice-tone-chinese .ez-toc-list li .active {
+        color: #FFBF00;
+      }
+      #voice-tone-chinese .ez-toc-list .active {
+        border-color: #FFBF00;
+      }
+      #voice-tone-chinese::after {
+        background-color: #FFBF00;
+      }
 /* logo guidelines */
     #logo-guidelines label span:hover,
     #logo-guidelines .current-post,
@@ -47,11 +60,11 @@ ____ ____ ___ ____ ____ ____ ____ _   _    ____ ____ _    ____ ____ ____
     #photography-guidelines .current-post,
     #photography-guidelines .ez-toc-list li a:hover,
     #photography-guidelines .ez-toc-list li .active {
-      color: #06AED5;
+      color: #1BE7FF;
     }
     #photography-guidelines .ez-toc-list .active {
-      border-color: #06AED5;
+      border-color: #1BE7FF;
     }
     #photography-guidelines::after {
-      background-color: #06AED5;
+      background-color: #1BE7FF;
     }
